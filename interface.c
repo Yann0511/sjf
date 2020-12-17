@@ -84,5 +84,5 @@ void free_process(Process **tab , int size)
     for(i = 0 ; i < size ; i++)
 	free(tab[i]) ;
 
-//    free(tab);
+    free(tab);
 }
